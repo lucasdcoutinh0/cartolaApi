@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const Playername = require('./models/Player')
+const playerRoutes = require('./routes/playerRoutes')
 require('dotenv').config()
 
 
@@ -14,7 +14,7 @@ app.use(
 
 app.use(express.json())
 
-app.post()
+app.use('/rodada_02', playerRoutes)
 
 mongoose
     .connect(`mongodb+srv://${process.env.LOGIN}:${process.env.PASSWORD}@cartolaapi.f1yex.mongodb.net/?retryWrites=true&w=majority`)
