@@ -1,0 +1,42 @@
+const mongoose = require('mongoose')
+
+const Player = mongoose.model('Player', {
+    atleta_id: Number,
+    clube_id: Number,
+    posicao_id: String,
+    status_id: Number,
+    pontos_num: Number,
+    preco_num: Number,
+    variacao_num: Number,
+    media_num: Number,
+    jogos_num: Number,
+    minimo_para_valorizar: Number,
+    slug: String,
+    apelido: String,
+    apelido_abreviado: String,
+    nome: String,
+    foto: String,
+    clube_nome: String,
+    A: Number,
+    CA: Number,
+    DS:	Number,
+    FC: Number,
+    FD: Number,
+    FF:	Number, 
+    FS: Number,
+    G: Number,
+    PI: Number,
+    DE: Number,
+    DP:	Number,
+    GS: Number,
+    SG: Number,
+    CV: Number,
+    PC: Number,
+    FT:	Number,
+    I: Number,
+    PP:	Number,
+    GC: Number, 
+    PS: Number
+})
+
+module.exports = Player
