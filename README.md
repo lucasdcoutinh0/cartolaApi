@@ -1,6 +1,6 @@
 # cartolaApi
 
-Welcome to the cartolaApi an API dedicated to the fantasy game Cartola FC. All the data used on this repo come from the repo <a href="https://github.com/henriquepgomide/caRtola" target="_blank">caRtola</a> created and maintained by <a href="https://github.com/henriquepgomide">Henrique Gomide</a> , <a href="https://github.com/arnaldog12"> Arnaldo Gualberto </a> and <a href="https://github.com/jcalvesoliveira"> Julio Oliveira </a>
+Welcome to the cartolaApi an API dedicated to the fantasy game Cartola FC. All the data used on this repo come from the repo <a href="https://github.com/henriquepgomide/caRtola" target="_blank">caRtola</a> created and maintained by <a href="https://github.com/henriquepgomide">Henrique Gomide</a> , <a href="https://github.com/arnaldog12"> Arnaldo Gualberto </a> and <a href="https://github.com/jcalvesoliveira"> Julio Oliveira </a>.
 
 Fell free to open Issues, make Pull requests or just let your comment :)
 
