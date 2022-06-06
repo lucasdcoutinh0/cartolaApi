@@ -14,7 +14,7 @@ app.use(
 
 app.use(express.json())
 
-app.use('/rodada_02', playerRoutes)
+app.use('/players-stats', playerRoutes)
 
 mongoose
     .connect(`mongodb+srv://${process.env.LOGIN}:${process.env.PASSWORD}@cartolaapi.f1yex.mongodb.net/?retryWrites=true&w=majority`)
