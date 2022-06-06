@@ -10,7 +10,7 @@ Fell free to open Issues, make Pull requests or just let your comment :)
   
   <br/>
 
-  On the ```main``` branch we have a basic RESTFUL API doing a CRUD with Node, Express and Mongoose.
+  On the ```main``` branch we have a RESTFUL API doing a CRUD with Node, Express and Mongoose.
 
   This version of the Api is very limited because uses the free version of Mongoose so it doesn't contain all possible data and functionality.
 
